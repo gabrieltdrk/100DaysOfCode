@@ -1,4 +1,3 @@
-// ESTADO COMO OBJETO
 import { useState } from 'react';
 
 export default function Form() {
@@ -17,6 +16,8 @@ export default function Form() {
   }
 
   return (
+    <div>
+    <h1>1- ESTADO COMO OBJETO</h1>
     <form>
         <input
          type="text"
@@ -35,6 +36,9 @@ export default function Form() {
          placeholder="Digite sua senha..."
          name="password"
          onChange={handleChange} />
+
+         <button>Nada acontece!</button>
     </form>
+    </div>
   )
 }
