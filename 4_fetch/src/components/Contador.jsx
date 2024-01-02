@@ -8,7 +8,7 @@ export default function Contador() {
   // SEM USEMEMO
   //const selectedItem = items.find((item) => item.isSelected)
   const selectedItem = useMemo(
-    () => items.find((item) => item.id === count),
+    () => items.find((item) => item.isSelected),
     [items]
   );
   return (

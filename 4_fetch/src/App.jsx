@@ -9,7 +9,6 @@ export default function App() {
         <h1>Exercício 1</h1>
         <Fetching id={1} />
         <Fetching id={2} />
-        <Fetching id={3} />
       </div>
       <div>
         <h1>Exercício 2</h1>
